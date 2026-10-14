@@ -16,4 +16,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HousingManagmentSystem.Application\HousingManagmentSystem.Application.csproj" />
+    <ProjectReference Include="..\HousingManagmentSystem.Infrastructure\HousingManagmentSystem.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
