@@ -34,6 +34,7 @@ public partial class Resident
     public DateTime? MoveOutDate { get; set; }
 
     public bool IsPrimaryResident { get; set; }
+    public string Id { get; set; } = null!;
 
     public int? Flag { get; set; }
 
@@ -45,7 +46,6 @@ public partial class Resident
 
     public DateTime? RestoredAt { get; set; }
 
-    public string Id { get; set; } = null!;
 
     public virtual Flat Flat { get; set; } = null!;
 
